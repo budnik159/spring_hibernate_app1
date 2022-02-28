@@ -1,10 +1,7 @@
 package ru.budnik.university_app1.entity;
 
 import javax.persistence.*;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @Entity

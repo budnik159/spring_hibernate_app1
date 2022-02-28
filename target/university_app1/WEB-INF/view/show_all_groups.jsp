@@ -1,12 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Svetlana
-  Date: 11.12.2021
-  Time: 16:55
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -33,8 +27,8 @@
 <br>
 <form action="/university/showGroups" method="get">
     <input type="text" name="newGroupName" placeholder="Введите название группы">
-    <br>
-    <input type="submit" name="Добавить группу">
+
+    <input type="submit" value="Добавить группу" >
 </form>
 
 </body>
